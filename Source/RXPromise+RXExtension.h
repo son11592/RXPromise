@@ -47,7 +47,7 @@ typedef RXPromise* (^rxp_unary_task)(id input);
  @brief Type definition for an asynchronous block taking no parameter and
  returning a \c RXPromise.
  */
-typedef RXPromise* (^rxp_nullary_task)();
+typedef RXPromise* (^rxp_nullary_task)(void);
 
 
 

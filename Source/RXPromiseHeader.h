@@ -710,7 +710,7 @@ typedef RXPromise* (^catch_on_main_block_t)(promise_errorHandler_t);
  deallocated.
  
  */
-+ (instancetype) promiseWithDeallocHandler:(void(^)())deallocHandler;
++ (instancetype) promiseWithDeallocHandler:(void(^)(void))deallocHandler;
 
 
 
